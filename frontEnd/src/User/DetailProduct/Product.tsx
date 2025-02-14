@@ -33,7 +33,6 @@ function DetailProduct() {
   const [favourites, setFavourites] = useState<Product[]>([]);
   const { addToCart, quantity, handleSetQuantity } = useProductContext();
   const [isVisibleDescription, setVisibleDescription] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     try {
