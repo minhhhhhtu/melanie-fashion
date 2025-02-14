@@ -76,7 +76,6 @@ function LoginPage() {
 
   return (
     <>
-      {isLoading && <Loading />}
       <div className="login">
         <img
           src="https://i.pinimg.com/736x/0b/6f/12/0b6f12699ee63503fe2b05812c7b9c2e.jpg"

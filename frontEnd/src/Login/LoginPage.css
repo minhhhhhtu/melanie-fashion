@@ -72,7 +72,6 @@ img {
 }
 .login__title {
   text-align: center;
-  font-size: var(--h1-font-size);
   font-weight: var(--font-medium);
   margin-bottom: 10px;
   font-display: swap;
