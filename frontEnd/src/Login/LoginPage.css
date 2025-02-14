@@ -1,4 +1,5 @@
 
+/*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
@@ -72,8 +73,9 @@ img {
 }
 .login__title {
   text-align: center;
+  font-size: var(--h1-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
   font-display: swap;
   visibility: visible;
 }
@@ -192,6 +194,6 @@ img {
     border-radius: 1.5rem;
   }
   .login__title {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }

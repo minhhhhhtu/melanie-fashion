@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import "./LoginPage.css";
 import { NavLink, useNavigate } from "react-router-dom";
-import Loading from "../Loading";
 
 function LoginPage() {
   const [isLoading, setIsLoading] = useState(false);
@@ -148,13 +147,9 @@ function LoginPage() {
           <button type="button" className="login__button" onClick={handleLogin}>
             Đăng nhập
           </button>
-
-          <p className="login__register">
-            Chưa có tài khoản
             <NavLink to="/signup" className="ml-3">
               Đăng ký
             </NavLink>
-          </p>
         </form>
       </div>
     </>
