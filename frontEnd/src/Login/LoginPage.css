@@ -1,6 +1,4 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-/*=============== VARIABLES CSS ===============*/
+
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
@@ -195,6 +193,6 @@ img {
     border-radius: 1.5rem;
   }
   .login__title {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
