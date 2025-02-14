@@ -27,16 +27,19 @@ function LoginPage() {
   const handleLogin = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch("https://melanine-backend.onrender.com/api/user/sign-in", {
-        method: "POST",
-        body: JSON.stringify({
-          email: userCredentials.EMAIL,
-          password: userCredentials.PASSWORD,
-        }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        "https://melanine-backend.onrender.com/api/user/sign-in",
+        {
+          method: "POST",
+          body: JSON.stringify({
+            email: userCredentials.EMAIL,
+            password: userCredentials.PASSWORD,
+          }),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (!response.ok) {
         if (response.status === 401) {
@@ -80,6 +83,7 @@ function LoginPage() {
           src="https://i.pinimg.com/736x/0b/6f/12/0b6f12699ee63503fe2b05812c7b9c2e.jpg"
           className="login__img"
           loading="lazy"
+          alt="Login background"
         />
         <form action="" className="login__form">
           <p className="login__title">Đăng nhập</p>
@@ -147,12 +151,13 @@ function LoginPage() {
           <button type="button" className="login__button" onClick={handleLogin}>
             Đăng nhập
           </button>
-            <NavLink to="/signup" className="ml-3">
-              Đăng ký
-            </NavLink>
+          <NavLink to="/signup" className="ml-3">
+            Đăng ký
+          </NavLink>
         </form>
       </div>
     </>
   );
 }
+
 export default LoginPage;
