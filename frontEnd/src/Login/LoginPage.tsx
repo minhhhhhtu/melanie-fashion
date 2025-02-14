@@ -75,7 +75,7 @@ function LoginPage() {
       <img
         src={img1}
         className="login__img"
-        loading="lazy"
+        loading="eager"
         alt="Login background"
       />
       <form className="login__form">
