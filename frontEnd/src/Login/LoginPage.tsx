@@ -84,7 +84,7 @@ function LoginPage() {
           loading="lazy"
         />
         <form action="" className="login__form">
-          <h1 className="login__title">Đăng nhập</h1>
+          <p className="login__title">Đăng nhập</p>
 
           <div className="login__content">
             <div className="login__box">

@@ -74,7 +74,7 @@ function SignUp() {
         />
 
         <form action="" className="login__form">
-          <h1 className="login__title">Đăng ký</h1>
+          <p className="login__title">Đăng ký</p>
 
           <div className="login__content">
             <div className="login__box">
