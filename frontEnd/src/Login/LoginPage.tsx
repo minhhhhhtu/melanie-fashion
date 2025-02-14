@@ -81,6 +81,7 @@ function LoginPage() {
         <img
           src="https://i.pinimg.com/736x/0b/6f/12/0b6f12699ee63503fe2b05812c7b9c2e.jpg"
           className="login__img"
+          loading="lazy"
         />
         <form action="" className="login__form">
           <h1 className="login__title">Đăng nhập</h1>

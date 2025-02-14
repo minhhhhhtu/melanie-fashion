@@ -76,6 +76,7 @@ const HomeHeader = () => {
     setActiveMenuItem(item);
   };
 
+
   const filterSearch = () => {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("inputSearchAuto-3");

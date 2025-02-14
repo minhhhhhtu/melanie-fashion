@@ -78,6 +78,7 @@ img {
   font-weight: var(--font-medium);
   margin-bottom: 2rem;
   font-display: swap;
+  visibility: visible;
 }
 .login__content, .login__box {
   display: grid;
