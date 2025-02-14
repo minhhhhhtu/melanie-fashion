@@ -5,7 +5,7 @@ import App from "./App";
 
 const link = document.createElement("link");
 link.href =
-  "https://fonts.googleapis.com/css2?family=Literata:wght@400;700&display=swap";
+  "https://fonts.googleapis.com/css2?family=Literata:wght@400&display=swap";
 link.rel = "stylesheet";
 document.head.appendChild(link);
 
