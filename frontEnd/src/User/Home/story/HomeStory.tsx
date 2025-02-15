@@ -14,7 +14,7 @@ class HomeStory extends React.Component {
     return (
       <div>
         {/* Preload image bằng thẻ img ẩn */}
-        <img src={imageUrl} style={{ display: "none" }} fetchPriority="high" alt="Preload" />
+        <img src={imageUrl} style={{ display: "none" }} fetchPriority="high" rel="preload" alt="img" />
 
         <div className="story lg:mt-40 lg:mb-40 pb-5">
           <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-4 w-[95%] lg:w-[73%] mx-auto mb-10">

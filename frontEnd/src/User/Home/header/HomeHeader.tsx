@@ -180,6 +180,7 @@ const HomeHeader = () => {
             <form className="searchform-product relative w-full lg:w-[90%] lg:ml-5 h-10 border-2 rounded-full border-pinky-600 border-solid  text-pinky-600 bg-slate-100">
               <button
                 onClick={toggleProductList}
+                aria-label="Search"
                 className="iconSearch absolute padding-0 top-1 left-0 bottom-0 w-[55px] transition-opacity"
               >
                 <FontAwesomeIcon
